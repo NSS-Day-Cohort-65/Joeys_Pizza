@@ -15,3 +15,37 @@
     6. Each function copies the input object and returns
           modified copy
 */
+
+
+// create our pizza as an empty object
+const pizza = {  }
+
+//create a function to add size to pizza
+const addSize = (sizeOfPizza) => {
+      // add a size property
+      pizza.size = sizeOfPizza
+}
+// create a function to add toppings to our pizza
+// add 2 parameters for each topping
+const addToppings = (topping1, topping2) => {
+      // add topping property to pizza object
+      pizza.toppings = [topping1, topping2]
+}
+addSize("small")
+addToppings("cheese", "pepperoni")
+console.log(pizza)
+// create a function to bake pizza
+const bakePizza = () => {
+      // add a baked property with a boolean value
+
+}
+
+// create a function to mark as paid
+const isPaid = () => {
+
+}
+// create a function to check if paid for and return HTML
+const deliverPizza = () => {
+
+}
+
